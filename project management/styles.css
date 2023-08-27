@@ -1,0 +1,53 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.project-list {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.project-items {
+    list-style: none;
+    padding: 0;
+}
+
+.project-item {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.project-name {
+    font-weight: bold;
+}
+
+.project-details {
+    flex: 2;
+    background-color: #2d343f;
+    border: 1px solid #f3efef;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
